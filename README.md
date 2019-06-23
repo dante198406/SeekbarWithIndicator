@@ -6,7 +6,7 @@
 ![animation](https://github.com/developer-kaczmarek/SeekbarWithIndicator/blob/master/animation.gif)
 
 ## Как это использовать?
-Добавьте в своей проект **SeekbarWithIndicator.kt**, **ic_indicator** в Drawable (если хотите использовать изображение для индикатора по default), **seekbar_attrs** в папку value. Практически готово! Осталось добавить компонент в xml-разметку вот так:
+Добавьте в своей проект **SeekbarWithIndicator.kt**, **ic_indicator** в drawable (если хотите использовать изображение для индикатора по default), **seekbar_with_indicator.xml** в layout, **seekbar_attrs** в value. Практически готово! Осталось добавить компонент в xml-разметку вот так:
 ```
 <androidx.constraintlayout.widget.ConstraintLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
